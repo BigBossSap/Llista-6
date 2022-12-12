@@ -23,7 +23,7 @@ dígits, quan és na frase buida i quan l'enter que hi ha és superior a
 
             for (int i = 0; i < n.Length; i++)
             {
-                if ("0,1,2,3,4,5,6,7,8,9".Contains(n[i]))
+                if ("0123456789".Contains(n[i]))
                     cont++;
                
             }

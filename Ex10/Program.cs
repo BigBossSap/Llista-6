@@ -30,11 +30,12 @@ dígits, quan és na frase buida i quan l'enter que hi ha és superior a
 
             if (cont != n.Length)
                 Console.WriteLine("Fallarà");
-            if (cont == 0)
+            else if (cont == 0)
                 Console.WriteLine("Fallarà");
-            if(n.Length>10)
+           
+            else if (n.Length>10)
                 Console.WriteLine("Fallarà");
-            if(String.Compare(n,comparador)==1)
+            else if(String.Compare(n,comparador)==1 &&n.Length==10)
                 Console.WriteLine("Fallarà");
 
             Console.WriteLine(comparador);
